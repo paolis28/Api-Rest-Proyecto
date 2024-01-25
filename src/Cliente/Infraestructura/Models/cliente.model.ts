@@ -10,7 +10,7 @@ class ClienteModel extends Model {
         type: DataType.INTEGER,
         primaryKey: true
     })
-    public id_cliente!:number; 
+    public id_cliente!:number;
 
     @Column({
         type: DataType.STRING,

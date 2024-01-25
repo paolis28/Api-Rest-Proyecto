@@ -3,7 +3,6 @@ import { AddClienteCasoUso } from "../../Aplicacion/addCliente.CasoUso";
 
 export class AddClienteController{
     constructor(readonly addClienteCasoUso:AddClienteCasoUso){}
-    
     async run(req: Request, res: Response){
         try {
             let {id_cliente,nombre}=req.body;
